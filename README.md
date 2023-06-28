@@ -1,8 +1,14 @@
-# Authentication & Authorization API
+# Authentication API
 
+<<<<<<< HEAD
 Full CRUD MongoDB, Nodejs, authentication and authorization API server,
 get access to protected routes with jwt token.
 Restricted endpoints that only admin has access.
+=======
+- Full CRUD MongoDB, Nodejs, authentication and authorization API.
+- Get access to protected routes with jwt token.
+- Error handling for development and production environment.
+>>>>>>> 57cc83d48fe744dfcbfa7119bec310294f653317
 
 ### Routes:
 

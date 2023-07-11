@@ -1,19 +1,20 @@
-# Authentication API
+# Authentication & Authorization API
 
-<<<<<<< HEAD
 Full CRUD MongoDB, Nodejs, authentication and authorization API server,
 get access to protected routes with jwt token.
-Restricted endpoints that only admin has access.
-=======
+Restricted endpoints that only admin can access.
+
 - Full CRUD MongoDB, Nodejs, authentication and authorization API.
 - Get access to protected routes with jwt token.
 - Error handling for development and production environment.
->>>>>>> 57cc83d48fe744dfcbfa7119bec310294f653317
+- Forgot and reset password functions with node mailer
 
 ### Routes:
 
 - Create user
 - Login user
+- Forgot password
+- Reset password
 
 #### Restricted routes -
 
@@ -27,8 +28,9 @@ Restricted endpoints that only admin has access.
 - Nodejs
 - Express
 - MongoDB
-- bcrypt
-- jsonwebtoken
-- mongoose
-- morgan
-- validator
+- Bcrypt
+- Jsonwebtoken
+- Mongoose
+- Morgan
+- Validator
+- Node mailer
